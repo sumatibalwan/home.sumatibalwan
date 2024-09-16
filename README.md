@@ -21,7 +21,7 @@ git pull
 Edit the desired files
 
 
-### Thirs: Ipdate Repository
+### Third: Update Repository
 
 ```
 git add .
