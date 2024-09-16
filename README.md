@@ -3,6 +3,7 @@
 ## How to Clone this repository
 
 ```bash
+cd c/coding4beginner
 git clone https://github.com/sumatibalwan/home.sumatibalwan.git
 ```
 
