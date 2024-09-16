@@ -8,7 +8,20 @@ cd \coding4beginner
 git clone https://github.com/sumatibalwan/home.sumatibalwan.git
 ```
 
-## How to update Repository
+## What to do when changing
+
+### First: get the current content
+
+```
+git pull
+```
+
+### Second: Do your changes
+
+Edit the desired files
+
+
+### Thirs: Ipdate Repository
 
 ```
 git add .
