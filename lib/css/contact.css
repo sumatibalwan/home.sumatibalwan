@@ -14,7 +14,7 @@ header {
     width: 100%;
     background-color: #4CAF50;
     color: #fff;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -55,4 +55,91 @@ h2 {
 
 .btn-map:hover {
     background-color: #388E3C;
+}
+
+
+  /* Header styling */
+  .main-header {
+    width: 100%;
+    background-color:#fff;
+}
+
+.samll-header { /* Adjusted to fix typo from 'small-header' */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Smaller gap to accommodate icons */
+    padding: 16px;
+    /* col/or: #000; */
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-1:hover {
+    color:black;
+    cursor: pointer;
+}
+
+.icons2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin:left; /* Spacing between GALLERY and icons */
+}
+
+.icons2 a {
+    display: block;
+}
+
+.icons2 img {
+    width: 30px; /* Adjusted size to fit in line */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.icons2 a:hover img {
+    transform: scale(1.1);
+}
+.a-add-cs{
+    text-decoration: none;
+    color: black;
+}
+.a-add-cs:hover{
+    color: blue;
+    cursor: pointer;
+    background-color:rgb(142, 201, 250); ;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+    .samll-header {
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    .icons2 img {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .samll-header {
+        flex-direction: column; /* Stack header items vertically */
+        gap: 10px;
+        text-align: center;
+    }
+
+    .icons2 {
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .icons2 img {
+        width: 20px;
+        height: 20px;
+    }
 }
